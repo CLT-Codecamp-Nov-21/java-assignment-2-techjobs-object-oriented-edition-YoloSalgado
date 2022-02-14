@@ -60,9 +60,9 @@ public class Job {
         }
 
         return "\n"+
-                "ID:" + id +
+                "ID: " + id +
                 "\nName: " + isEmpty(name) +
-                "\nEmployer: " + isEmpty(employer.toString()) +
+                "\nEmployer: " + isEmpty(employer.getValue()) +
                 "\nLocation: " + isEmpty(location.toString()) +
                 "\nPosition Type: " + isEmpty(positionType.toString()) +
                 "\nCore Competency: " + isEmpty(coreCompetency.toString()) +
